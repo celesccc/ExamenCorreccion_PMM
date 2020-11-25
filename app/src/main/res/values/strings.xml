@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Examen</string>
+    <string name="bontonActivity1">Intro</string>
+    <string name="valordefecto">0</string>
+    <string name="boton1">Dar Tamaño</string>
+    <string name="boton2">Ordenar por Tamaño</string>
+    <string name="boton3">Filtrar por Tamaño </string>
+</resources>

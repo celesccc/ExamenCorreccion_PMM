@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azulceleste"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/azulclaro"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="@string/valordefecto"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:background="@color/azulclaro"
+        android:padding="20dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/azul"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:text="@string/boton1"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/boton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/azul"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:text="@string/boton2"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/boton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/azul"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:text="@string/boton3"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"/>
+
+</LinearLayout>
